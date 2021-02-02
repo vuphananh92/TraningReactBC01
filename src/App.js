@@ -8,16 +8,22 @@ import Slider from "./components/BaiTapLayout/Slider";
 import ProductList from "./components/BaiTapLayout/ProductList";
 import BTFoodter from "./components/BaiTapLayout/BTFoodter";
 import DataBinding from "./DataBinding/DataBinding";
+import HandleEvent from "./components/HandleEvent/HandleEvent";
+import DemoState from "./components/StateReact/DemoState";
+import BaiTapChonXe from "./components/BaiTapChonXe.js/BaiTapChonXe";
 
 function App() {
   return (
-    <div className="App">
-      <BaiTapLayout />
+    <div className="App container">
+      {/* <BaiTapLayout />
       <BTHeader />
       <Slider />
       <ProductList/>
       <BTFoodter/>
-      <DataBinding/>
+      <DataBinding/> */}
+      {/* <HandleEvent/>
+      <DemoState/> */}
+      <BaiTapChonXe/>
     
     </div>
   );
