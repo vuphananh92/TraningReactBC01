@@ -11,6 +11,11 @@ import DataBinding from "./DataBinding/DataBinding";
 import HandleEvent from "./components/HandleEvent/HandleEvent";
 import DemoState from "./components/StateReact/DemoState";
 import BaiTapChonXe from "./components/BaiTapChonXe.js/BaiTapChonXe";
+import RenderWithMap from "./RenderWithMap/RenderWithMap";
+import BaiTapRenderMap from "./RenderWithMap/BaiTapRenderMap";
+import DemoProps from "./Props/DemoProps";
+import ThongTinSinhVien from "./Props/ThongTinSinhVien";
+
 
 function App() {
   return (
@@ -23,7 +28,13 @@ function App() {
       <DataBinding/> */}
       {/* <HandleEvent/>
       <DemoState/> */}
-      <BaiTapChonXe/>
+      {/* <BaiTapChonXe/> */}
+      {/* <RenderWithMap/> */}
+      {/* <BaiTapRenderMap/> */}
+      {/* <ThongTinSinhVien/> */}
+      <DemoProps/>
+     
+
     
     </div>
   );
