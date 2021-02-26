@@ -11,19 +11,21 @@ import DataBinding from "./DataBinding/DataBinding";
 import HandleEvent from "./components/HandleEvent/HandleEvent";
 import DemoState from "./components/StateReact/DemoState";
 import BaiTapChonXe from "./components/BaiTapChonXe.js/BaiTapChonXe";
+import DemoQLSP from "./Prop/DemoQLSP";
 
 function App() {
   return (
     <div className="App container">
-      {/* <BaiTapLayout />
-      <BTHeader />
-      <Slider />
-      <ProductList/>
-      <BTFoodter/>
-      <DataBinding/> */}
-      {/* <HandleEvent/>
-      <DemoState/> */}
-      <BaiTapChonXe/>
+      {/* <BaiTapLayout /> */}
+      {/* <BTHeader /> */}
+      {/* <Slider /> */}
+      {/* <ProductList/> */}
+      {/* <BTFoodter/> */}
+      {/* <DataBinding/> */}
+      {/* <HandleEvent/> */}
+      {/* <DemoState/> */}
+      {/* <BaiTapChonXe/> */}
+      <DemoQLSP/>
     
     </div>
   );
